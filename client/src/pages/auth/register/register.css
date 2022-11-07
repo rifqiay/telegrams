@@ -1,0 +1,28 @@
+body {
+  background-color: #e5e5e5;
+}
+.test {
+  background-color: salmon;
+}
+.h-regis {
+  height: 100vh;
+}
+main {
+  width: 40%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.custom-border {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+}
+.custom-border:focus {
+  outline: none;
+}
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+}
