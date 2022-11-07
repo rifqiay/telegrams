@@ -5,7 +5,7 @@
 <div align="center">
 <br />
 
-[![made with hearth by Muhammad Rifqi Ainul Yaqin](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-Wahyu-ff1414.svg?style=flat-square)](https://github.com/rifqiay)
+[![made with hearth by Muhammad Rifqi Ainul Yaqin](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-Rifqi-ff1414.svg?style=flat-square)](https://github.com/rifqiay)
 
 </div>
 
@@ -50,7 +50,7 @@ Start the server
 To run this project, you will need to add the following environment variables to your .env file
 
 ```
-NEXT_PUBLIC_API_URL=
+REACT_APP_API=
 
 ```
 
@@ -82,7 +82,6 @@ NEXT_PUBLIC_API_URL=
       <td>Group</td>
  </tr>
 </table>
-
 
 ## Development
 
