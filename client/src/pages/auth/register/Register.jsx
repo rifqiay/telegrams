@@ -99,7 +99,7 @@ const Register = () => {
                   className="btn btn-primary rounded-pill w-100 py-2 mt-3"
                   type="submit"
                 >
-                  Login
+                  Register
                 </button>
               </>
             )}

@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+<br/>
+<div align="center">
+<img src="https://i.postimg.cc/CMXVVsR6/Group-5856.png" width="auto" height="230" cover />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+<br />
 
-## Available Scripts
+[![made with hearth by Muhammad Rifqi Ainul Yaqin](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-Wahyu-ff1414.svg?style=flat-square)](https://github.com/rifqiay)
 
-In the project directory, you can run:
+</div>
 
-### `yarn start`
+## Telegrams Chats
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Telegrams Chats is a real-time chat application that has several features, including private chat, viewing profile descriptions, and profile updates. Telegrams Chats are built using React.js as the frontend, Express.js as the backend, PostgreSQL as the data repository, and Socket.io to build applications in real time.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `yarn test`
+**Client:** React Js, Redux
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Server:** Node, Express, Socket
 
-### `yarn build`
+## Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  git clone https://github.com/rifqiay/telegrams.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Go to the project directory
 
-### `yarn eject`
+```bash
+  cd telegrams
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm run dev
+```
 
-## Learn More
+## Environment Variables
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run this project, you will need to add the following environment variables to your .env file
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+NEXT_PUBLIC_API_URL=
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Screenshoots
 
-### Analyzing the Bundle Size
+<p align="center" display=flex>
+<table>
+  <tr>
+    <td><image src="./ScreenShoot/register.png" alt="register Pagee" width=100%/></td>
+    <td><image src="./ScreenShoot/login.png" alt="login Page" width=100%></td>
+  </tr>
+   <tr>
+    <td>Register Page</td>
+    <td>Login Page</td>
+  </tr>
+  <tr>
+    <td><image src="./ScreenShoot/chat.png" alt="Home Page" width=100% ></td>
+    <td><image src="./ScreenShoot/profile.png" alt="Register Page" width=100%></td>
+  </tr>
+   <tr>
+   <td>Chat Page</td>
+    <td>Chat Page</td>
+  </tr>
+ 
+  <tr>
+    <td><image src="./ScreenShoot/grup.png" alt="List My Product" width=100%></td>
+  </tr>
+  <tr>
+      <td>Group</td>
+ </tr>
+</table>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Want to contribute? Great!
 
-### Advanced Configuration
+To fix a bug or enhance an existing module, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Fork the repo
+- Create a new branch (`git checkout -b improve-telegrams`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -m 'Improve Telegrams'`)
+- Push to the branch (`git push origin improve-telegrams`)
+- Create a Pull Request
 
-### Deployment
+## Related Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+:rocket: [`Demo Telegrams Chats`](https://tugas-telegram-app.vercel.app/)
 
-### `yarn build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Muhammad Rifqi Ainul Yaqin - [linkedin](www.linkedin.com/in/rifqiay) - mrifqiay@gmail.com
